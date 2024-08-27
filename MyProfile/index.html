@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaharu Profile</title>
+
+    <style>
+      /* Izin menambahkan CSS sedikit*/
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        text-align: center;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+
+      .profile-image {
+        width: 150px;
+        border-radius: 50%;
+        margin-top: 10px;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+      }
+
+      .my-story, .personal-info {
+        width: 45%;
+      }
+
+      .social-icons {
+        text-align: center;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+
+      .icons img {
+        width: 40px;
+        margin: 0 10px;
+        vertical-align: middle;
+      }
+
+      footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Biodata</h1>
+      <!-- Menggunakan Relative File Path-->
+      <img src="poto.jpg" alt="Your Profile Image" class="profile-image" />
+      <p><strong>Gaharu Winanggya Binathara</strong><br />Software Engineer</p>
+    </header>
+
+    <div class="container">
+      <div class="my-story">
+        <div class="story-header">
+          <h2>Profile</h2>
+        </div>
+        <p>Hello guys, I'm <span style="font-weight: bold;">Gaharu</span> and this is my <span style="font-style: italic;">browser-based profile.</span></p>
+        <p>I am passionate about technology and excited to share more about myself.</p>
+      </div>
+
+      <div class="personal-info">
+        <h2>Contact Me</h2>
+        <p><strong>Email:</strong> <a href="mailto:gaharu@gmail.com">winanggyagaharu@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+6281229367740">0812 2936 7740</a></p>
+      </div>
+    </div>
+
+    <div class="social-icons">
+      <p class="find-me">Let's Connect</p>
+      <div class="icons">
+        <!-- Menggunakan Absolut File Path-->
+        <a href="https://github.com/arugaharu" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/GaharuWinanggyaBinatahara" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" /></a>
+        <a href="https://www.instagram.com/gaharuwb" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" /></a>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 <em>Gaharu</em>. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
